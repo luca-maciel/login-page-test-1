@@ -1,0 +1,108 @@
+/* declaração para tudo na página */
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+/* dando cor ao fundo */
+body{
+    background: #353b51;
+}
+
+/* configuração das label's */
+label{
+    color: #7a7f95;
+    font-size: 18px;
+}
+
+/* config. da area da página (provavelmente uma config. inútil) */
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* area do titulo */
+.titleArea{
+    width: 100%;
+    text-align: center;
+}
+
+/* config. do título */
+#title{
+    margin-left: 30px;
+    padding-top: 70px;
+    color: #9ba3b6;
+}
+
+/* config. da area "inputs" */
+.inputs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+/* config. dos input's de email e senha */
+#emailIpt, #passwordIpt{
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+/* config. do botão de login */
+#loginBtn {
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    background: #a13954;
+    color: #d68a9e;
+    margin-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* config. do botão de login com :hover */
+#loginBtn:hover{
+    box-shadow: 0 0 15px;
+    transition: 200ms;
+    width: 330px;
+    height: 50px;
+}
+
+/* config. da area do link de recuperaçãao de senha */
+.recPassArea{
+    position: relative;
+    bottom: 60px;
+    left: 116px;
+}
+
+/* config. do link de recuperação de senha */
+#passRec{
+    color: #9ba3b6;
+    text-decoration: none;
+}
+
+/* config. do link de recuperação de senha com :hover */
+#passRec:hover{
+    color: #bac1d3;
+    text-decoration: underline;
+    filter: drop-shadow(0 0 8px);
+    transition: 200ms;
+}
+
+/* config. do botão de recuperação de senha com :visited */
+#passRec:visited{
+    text-decoration: none;
+}

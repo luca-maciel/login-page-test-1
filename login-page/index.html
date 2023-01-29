@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Criar página de login.
+
+    --HTML--
+Nela deverá ter: 
+    - Título {OK}
+    - Email (com legenda em cima) {OK}
+    - Senha (com legenda em cima) {OK}
+    - Botão de Login {OK}
+    - Opção de "Esqueci minha senha" {OK}
+
+    --CSS--
+    Estilizar {OK}
+
+    --Javascript--
+    Dar Funcionalidades à inputs, botões e links {INCOMPLETO}
+    (OBS: Ainda não sei usar Javascript.)
+
+-->
+    
+<body>
+    <!-- definindo uma área para tudo na página (nem sei porquê criei :/ ) -->
+    <div class="page">
+        <div class="titleArea">
+            <h1 id="title">
+                Login
+            </h1>
+        </div>
+        <!-- definindo uma área geral -->
+        <div class="formArea">
+            <!-- dando área ao form -->
+            <form action="post">
+            <!-- dando área aos inputs/buttons -->
+            <div class="inputs">
+                <!-- criando inputs/buttons -->
+                <label for="email">Email</label>
+                <input type="email" name="email" id="emailIpt">
+                <br>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="passwordIpt">
+                <button type="submit" id="loginBtn">Login</button>
+            </div>
+            <!-- criando área para link de recuperação de senha -->
+            <div class="recPassArea">
+                <!-- criando o link de recuperação de senha -->
+                <a href="#" target="_blank" id="passRec">Esqueci minha senha</a>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
